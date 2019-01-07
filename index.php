@@ -5,4 +5,4 @@ $carro = new Carro();
 $carro->setCor('branco');
 $carro->setCorTipo('perolizado');
 
-echo $carro->getCorCompeta();
+echo $carro->getCorCompleta();
