@@ -20,7 +20,7 @@ class Carro {
     }
 
     public function getCorCompleta(){
-        echo "COR: ".$this->cor;
+        echo "COR_TIPO: ".$this->cor_tipo;
         exit;
         
         return $this->cor.' '.$this->cor_tipo;
