@@ -16,7 +16,7 @@ class Carro {
 
    
     public function setCorTipo($t){
-        $this->cor_tipo = $t;
+        $this->cor_tipo == $t;
     }
 
     public function getCorCompleta(){
