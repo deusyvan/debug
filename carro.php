@@ -16,13 +16,12 @@ class Carro {
 
    
     public function setCorTipo($t){
+        echo "PARAMETRO: ".$t;
+        exit;
         $this->cor_tipo == $t;
     }
 
     public function getCorCompleta(){
-        echo "COR_TIPO: ".$this->cor_tipo;
-        exit;
-        
         return $this->cor.' '.$this->cor_tipo;
     }
     
